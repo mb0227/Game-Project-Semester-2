@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\bl\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\movement\\enemyzigzagmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\enemyzigzagmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\movement\\enemyverticalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\enemyverticalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\bl\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bilal\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\movement\\enemyhorizontalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\enemyhorizontalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\movement\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyZigZagMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyZigZagMovement.cs",
+              "RelativeDocumentMoniker": "GameFramework\\Movement\\EnemyZigZagMovement.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyZigZagMovement.cs",
+              "RelativeToolTip": "GameFramework\\Movement\\EnemyZigZagMovement.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T22:40:41.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyVerticalMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyVerticalMovement.cs",
+              "RelativeDocumentMoniker": "GameFramework\\Movement\\EnemyVerticalMovement.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyVerticalMovement.cs",
+              "RelativeToolTip": "GameFramework\\Movement\\EnemyVerticalMovement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T22:26:05.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Player.cs",
+              "RelativeDocumentMoniker": "GameFramework\\BL\\Player.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Player.cs",
+              "RelativeToolTip": "GameFramework\\BL\\Player.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:55:24.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
+              "RelativeDocumentMoniker": "GameFramework\\BL\\Game.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
+              "RelativeToolTip": "GameFramework\\BL\\Game.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwDYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:52:06.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserControlTestContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs",
+              "ToolTip": "C:\\Users\\Bilal\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs [Read Only]",
+              "ViewState": "AQIAAA0BAAAAAAAAAAAWwBYBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T22:37:34.282Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Enemy.cs",
+              "RelativeDocumentMoniker": "GameFramework\\BL\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Enemy.cs",
+              "RelativeToolTip": "GameFramework\\BL\\Enemy.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:52:53.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyHorizontalMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyHorizontalMovement.cs",
+              "RelativeDocumentMoniker": "GameFramework\\Movement\\EnemyHorizontalMovement.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyHorizontalMovement.cs",
+              "RelativeToolTip": "GameFramework\\Movement\\EnemyHorizontalMovement.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T19:22:13.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "GameFramework\\Movement\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\EnemyMovement.cs",
+              "RelativeToolTip": "GameFramework\\Movement\\EnemyMovement.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T19:07:09.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

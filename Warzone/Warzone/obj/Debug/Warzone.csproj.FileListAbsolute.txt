@@ -1,0 +1,16 @@
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\Warzone.exe.config
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\Warzone.exe
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\Warzone.pdb
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.csproj.AssemblyReference.cache
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.GameGUI.resources
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.Properties.Resources.resources
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.csproj.GenerateResource.cache
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.exe
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.pdb
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\GameFramework.pdb
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.csproj.Up2Date
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.Images.resources
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\GameFramework.dll
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\EZInput.dll
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\EZInput.xml

@@ -1,0 +1,9 @@
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\bin\Debug\GameFramework.dll
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\bin\Debug\GameFramework.pdb
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFramework.csproj.AssemblyReference.cache
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFramework.csproj.CoreCompileInputs.cache
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFramework.dll
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFramework.pdb
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\bin\Debug\EZInput.dll
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\bin\Debug\EZInput.xml
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFram.F0C8D8B9.Up2Date
