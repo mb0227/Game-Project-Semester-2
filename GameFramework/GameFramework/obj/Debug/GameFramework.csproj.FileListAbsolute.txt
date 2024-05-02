@@ -7,3 +7,5 @@ C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameF
 C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\bin\Debug\EZInput.dll
 C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\bin\Debug\EZInput.xml
 C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFram.F0C8D8B9.Up2Date
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFramework.im.resources
+C:\Users\Bilal\OneDrive\Desktop\Game\GameFramework\GameFramework\obj\Debug\GameFramework.csproj.GenerateResource.cache

@@ -83,6 +83,16 @@ namespace Warzone {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap enemy {
+            get {
+                object obj = ResourceManager.GetObject("enemy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Enemy1 {
             get {
                 object obj = ResourceManager.GetObject("Enemy1", resourceCulture);
@@ -246,6 +256,26 @@ namespace Warzone {
         internal static System.Drawing.Bitmap PlayerDead {
             get {
                 object obj = ResourceManager.GetObject("PlayerDead", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_05_02_185721 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_2024_05_02_185721", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_05_02_190532_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_2024-05-02_190532-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

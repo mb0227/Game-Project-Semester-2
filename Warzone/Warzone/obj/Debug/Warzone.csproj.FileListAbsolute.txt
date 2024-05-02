@@ -14,3 +14,4 @@ C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\obj\Debug\Warzone.Images.re
 C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\GameFramework.dll
 C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\EZInput.dll
 C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\EZInput.xml
+C:\Users\Bilal\OneDrive\Desktop\Game\Warzone\Warzone\bin\Debug\Guna.UI2.dll

@@ -7,55 +7,148 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 using EZInput;
+using GameFramework.Collision;
 
 namespace GameFramework.BL
 {
     public class Game
     {
-        private List<Enemy> Enemies;
-        private Player Player;
+        private List<GameObject> GameObjects;
         private Form GameForm;
+        private List<CollisionDetection> Collisions;
+        private int Score;
+        private static bool HasBeenCalled = false;
+        private (int VerticalEnemies, int HorizontalEnemies, int ZigZagEnemies, int Players, int Walls) Count;
 
-        public Game(Form gameForm)
+        private Game(Form gameForm)
         {
             GameForm = gameForm;
-            Enemies = new List<Enemy>();
-            Player = new Player();
+            GameObjects = new List<GameObject>();
+            Collisions = new List<CollisionDetection>();
+            Count = (0, 0, 0,0,0);
         }
 
-        public void AddEnemy(Image image, int top, int left, EnemyMovement movement)
+        public static Game MakeGame(Form gameForm) //Singleton Pattern
         {
-            Enemy enemy = new Enemy(image, top, left, movement);
-            Enemies.Add(enemy);
-            GameForm.Controls.Add(enemy.GetImage());
+            if (!HasBeenCalled)
+            {               
+                HasBeenCalled = true;
+                return new Game(gameForm);
+            }
+            return null;
         }
 
-        public void AddPlayer(Image image, int top, int left,int speed)
+        public void AddGameObject(Image image, GameObjectType gameObjectType, int top, int left, IMovement movement)
         {
-            Player = new Player(image, top, left,speed);
-            GameForm.Controls.Add(Player.GetImage());
+            IncreaseCount(gameObjectType);
+            GameObject gameObject = new GameObject(image, gameObjectType, top, left, movement);
+            GameObjects.Add(gameObject);
+            GameForm.Controls.Add(gameObject.GetImage());
         }
 
         public void Update()
         {
-            foreach (Enemy enemy in Enemies)
+            foreach (GameObject entity in GameObjects)
             {
-                enemy.Update();
+                entity.Update();
+            }
+            foreach (CollisionDetection collision in Collisions)
+            {
+                collision.DetectCollision(this, GameObjects);
             }
         }
 
-        public void MovePlayer(Key key)
+        public void AddCollision(CollisionDetection collision)
         {
-            if (Keyboard.IsKeyPressed(Key.LeftArrow))
-                Player.MoveLeft();
-            else if (Keyboard.IsKeyPressed(Key.RightArrow))
-                Player.MoveRight();
-            else if (Keyboard.IsKeyPressed(Key.UpArrow))
-                Player.MoveUp();
-            else if (Keyboard.IsKeyPressed(Key.DownArrow))
-                Player.MoveDown();
-            else
-                return;
+            Collisions.Add(collision);
+        }
+
+        public void AddScore()
+        {
+            Score++;
+        }   
+
+        public void DecreaseScore()
+        {
+            if(Score>0)
+                Score--;
+        }
+
+        public int GetScore()
+        {
+            return Score;
+        }
+
+        public void SetScoreZero()
+        {
+            Score = 0;
+        }
+
+        public void SetScore(int score)
+        {
+            Score= score;
+        }
+
+        public int GetPlayerHealth()
+        {
+            foreach (GameObject gameObject in GameObjects)
+            {
+                if (gameObject.GetGameObjectType() == GameObjectType.Player)
+                {
+                    return gameObject.GetHealth();
+                }
+            }
+            return 0;
+        }
+
+        public List<int> GetEnemiesHealth()
+        {             
+            List<int> healthList = new List<int>();
+            foreach (GameObject gameObject in GameObjects)
+            {
+                if (gameObject.GetGameObjectType() != GameObjectType.Player)
+                {
+                    healthList.Add(gameObject.GetHealth());
+                }
+            }
+            return healthList;
+        }
+
+        private void IncreaseCount(GameObjectType objectType)
+        {
+            if (objectType == GameObjectType.VerticalEnemy)
+                Count.VerticalEnemies++;
+            else if (objectType == GameObjectType.HorizontalEnemy)
+                Count.HorizontalEnemies++;
+            else if (objectType == GameObjectType.ZigZagEnemy)
+                Count.ZigZagEnemies++;
+            else if (objectType == GameObjectType.Player)
+                Count.Players++;
+        }
+
+        public int GetVerticalEnemiesCount()
+        {
+            return Count.VerticalEnemies;
+        }
+
+        public int GetHorizontalEnemiesCount()
+        {
+            return Count.HorizontalEnemies;
+        }
+
+        public int GetZigZagEnemiesCount()
+        {
+            return Count.ZigZagEnemies;
+        }
+
+        public List<GameObject> GetGameObjects()
+        {
+            return GameObjects;
+        }
+
+        public  int GetPlayersCount()
+        {
+            return Count.Players;
         }
     }
 }
