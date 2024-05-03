@@ -7,14 +7,26 @@
       "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\gameui\\gamegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\warzone\\warzone\\gameui\\gamegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\warzone\\warzone\\gameui\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\gameui\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\warzone\\warzone\\gameui\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\gameui\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\warzone\\warzone\\gameui\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\gameui\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\warzone\\gameui\\gamegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\gameui\\gamegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Collision\\CollisionDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Collision\\CollisionDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\warzone\\images.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -29,7 +41,7 @@
       "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\gameui\\gamegui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\warzone\\warzone\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\warzone\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D5493271-4478-4C4E-A576-41858B40B9BE}|Warzone\\Warzone.csproj|solutionrelative:warzone\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -47,24 +59,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
-              "RelativeDocumentMoniker": "..\\GameFramework\\GameFramework\\BL\\Game.cs",
-              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
-              "RelativeToolTip": "..\\GameFramework\\GameFramework\\BL\\Game.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Title": "Homepage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\Homepage.Designer.cs",
+              "RelativeDocumentMoniker": "Warzone\\GameUI\\Homepage.Designer.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\Homepage.Designer.cs",
+              "RelativeToolTip": "Warzone\\GameUI\\Homepage.Designer.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAawGAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T22:01:22.683Z",
+              "WhenOpened": "2024-05-03T03:45:27.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Homepage.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\Homepage.cs",
+              "RelativeDocumentMoniker": "Warzone\\GameUI\\Homepage.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\Homepage.cs",
+              "RelativeToolTip": "Warzone\\GameUI\\Homepage.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADgvxUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:44:48.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Homepage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\Homepage.cs",
+              "RelativeDocumentMoniker": "Warzone\\GameUI\\Homepage.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\Homepage.cs [Design]",
+              "RelativeToolTip": "Warzone\\GameUI\\Homepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T03:39:27.198Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
+              "RelativeDocumentMoniker": "..\\GameFramework\\GameFramework\\BL\\Game.cs",
+              "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
+              "RelativeToolTip": "..\\GameFramework\\GameFramework\\BL\\Game.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAnwB0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T22:01:22.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CollisionDetection.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Collision\\CollisionDetection.cs",
               "RelativeDocumentMoniker": "..\\GameFramework\\GameFramework\\Collision\\CollisionDetection.cs",
@@ -72,12 +121,11 @@
               "RelativeToolTip": "..\\GameFramework\\GameFramework\\Collision\\CollisionDetection.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T21:57:03.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T21:57:03.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\App.config",
               "RelativeDocumentMoniker": "Warzone\\App.config",
@@ -90,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "GameGUI.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\GameGUI.cs",
               "RelativeDocumentMoniker": "Warzone\\GameUI\\GameGUI.cs",
@@ -102,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Player.cs",
               "RelativeDocumentMoniker": "..\\GameFramework\\GameFramework\\BL\\Player.cs",
@@ -110,12 +158,11 @@
               "RelativeToolTip": "..\\GameFramework\\GameFramework\\BL\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:49:07.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T14:49:07.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Images.resx",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\Images.resx",
               "RelativeDocumentMoniker": "Warzone\\Images.resx",
@@ -127,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GameGUI.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\GameGUI.Designer.cs",
               "RelativeDocumentMoniker": "Warzone\\GameUI\\GameGUI.Designer.cs",
@@ -140,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Warzone\\Properties\\Resources.resx",
@@ -159,14 +206,14 @@
               "RelativeDocumentMoniker": "Warzone\\GameUI\\GameGUI.cs",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\GameUI\\GameGUI.cs",
               "RelativeToolTip": "Warzone\\GameUI\\GameGUI.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAcwEMAAAAVAAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAAMAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T20:39:49.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\Warzone\\Warzone\\Program.cs",
               "RelativeDocumentMoniker": "Warzone\\Program.cs",
@@ -174,8 +221,7 @@
               "RelativeToolTip": "Warzone\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:36:56.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T20:36:56.883Z"
             }
           ]
         }

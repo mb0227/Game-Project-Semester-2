@@ -14,17 +14,20 @@ namespace GameFramework.BL
     public class Game
     {
         private List<GameObject> GameObjects;
-        private Form GameForm;
         private List<CollisionDetection> Collisions;
+        private Form GameForm;
         private int Score;
         private static bool HasBeenCalled = false;
         private (int VerticalEnemies, int HorizontalEnemies, int ZigZagEnemies, int Players, int Walls) Count;
+
+        private List<GameObject> Bullets;
 
         private Game(Form gameForm)
         {
             GameForm = gameForm;
             GameObjects = new List<GameObject>();
             Collisions = new List<CollisionDetection>();
+            Bullets = new List<GameObject>();
             Count = (0, 0, 0,0,0);
         }
 
@@ -50,7 +53,10 @@ namespace GameFramework.BL
         {
             foreach (GameObject entity in GameObjects)
             {
-                entity.Update();
+                if(entity.GetGameObjectType() != GameObjectType.Bullet)
+                    entity.Update();
+                GenerateBullets();
+                MoveBullets();
             }
             foreach (CollisionDetection collision in Collisions)
             {
@@ -126,6 +132,63 @@ namespace GameFramework.BL
                 Count.Players++;
         }
 
+        public void GenerateBullets()
+        {
+            if (EZInput.Keyboard.IsKeyPressed(EZInput.Key.Space))
+            {
+                GameObject player = GetPlayer();
+                GameObject bullet = GetBullet();
+                if (player != null && bullet != null)
+                {
+                    PictureBox Bullet = new PictureBox();
+                    //int playerLocationX = player.GetImageLocation().X;
+                    //int playerLocationY = player.GetImageLocation().Y;
+                    //Bullet.Location = new System.Drawing.Point(playerLocationX, playerLocationY);
+                    Bullet.Left = player.GetImage().Left + 30;
+                    Bullet.Top = player.GetImage().Height / 2;
+                    Bullet.Size = new Size(25, 20);
+                    Bullet.BackColor = Color.Transparent;
+                    Bullet.BringToFront();
+                    Bullet.SizeMode = PictureBoxSizeMode.StretchImage;
+                    Bullet.Visible = true;
+                    bullet.SetImage(Bullet.Image);
+
+                    Console.WriteLine(bullet.GetImage().Location + " "+ player.GetImage().Location);
+                }
+            }
+        }
+
+        private void MoveBullets()
+        {
+            foreach (var item in GameObjects)
+            {
+                if(item.GetGameObjectType() == GameObjectType.Bullet)
+                {
+                    item.GetImage().Left += 3;
+                }
+            }
+        }
+
+        public GameObject GetPlayer()
+        {
+            foreach (var item in GameObjects)
+            {
+                if (item.GetGameObjectType() == GameObjectType.Player)
+                    return item;
+            }
+            return null;
+        }
+
+        public GameObject GetBullet()
+        {
+            foreach (var item in GameObjects)
+            {
+                if (item.GetGameObjectType() == GameObjectType.Bullet)
+                    return item;
+            }
+            return null;
+        }
+
         public int GetVerticalEnemiesCount()
         {
             return Count.VerticalEnemies;
@@ -149,6 +212,11 @@ namespace GameFramework.BL
         public  int GetPlayersCount()
         {
             return Count.Players;
+        }
+
+        public Form GetGame()
+        {
+            return GameForm;
         }
     }
 }

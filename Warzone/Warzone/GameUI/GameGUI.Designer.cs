@@ -50,7 +50,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GameGUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Game";
             this.Load += new System.EventHandler(this.GameGUI_Load);
             this.ResumeLayout(false);
 

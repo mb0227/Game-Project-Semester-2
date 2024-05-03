@@ -3,11 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\keyboardmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\keyboardmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\bl\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\collision\\collisiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\bl\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bilal\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\im.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\im.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\horizontalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\horizontalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\bl\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\collision\\collisiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\collision\\collisiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,40 +38,20 @@
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\verticalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\keyboardmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\keyboardmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\movement\\imovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\imovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\imovementstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\movement\\imovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\imovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\imovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\horizontalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\horizontalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\bl\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\zigzagmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\zigzagmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\bl\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\bl\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\gameframework\\movement\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\movement\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|c:\\users\\bilal\\onedrive\\desktop\\game\\gameframework\\gameframework\\im.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{104D7C3F-2FF0-41B2-AEA0-4ADCC1851D2E}|GameFramework\\GameFramework.csproj|solutionrelative:gameframework\\im.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +61,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "UserControlTestContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Bilal\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs",
+              "ToolTip": "C:\\Users\\Bilal\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\3933a443edc8c13a8ec14a7f4d2196cd79c1d2d9f93cdf495e65585c71e37122\\UserControlTestContainer.cs [Read Only]",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAawBYBAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T23:02:36.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IMovement.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\IMovement.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\IMovement.cs",
@@ -70,12 +85,11 @@
               "RelativeToolTip": "GameFramework\\Movement\\IMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T20:56:27.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T20:56:27.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IMovementState.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\IMovementState.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\IMovementState.cs",
@@ -83,24 +97,22 @@
               "RelativeToolTip": "GameFramework\\Movement\\IMovementState.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:42:12.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T19:42:12.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "im.resx",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\im.resx",
               "RelativeDocumentMoniker": "GameFramework\\im.resx",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\im.resx",
               "RelativeToolTip": "GameFramework\\im.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-02T19:24:18.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T19:24:18.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CollisionDetection.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Collision\\CollisionDetection.cs",
               "RelativeDocumentMoniker": "GameFramework\\Collision\\CollisionDetection.cs",
@@ -108,38 +120,37 @@
               "RelativeToolTip": "GameFramework\\Collision\\CollisionDetection.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwB4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:22:36.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T17:22:36.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "KeyboardMovement.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\KeyboardMovement.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\KeyboardMovement.cs",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\KeyboardMovement.cs",
               "RelativeToolTip": "GameFramework\\Movement\\KeyboardMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwDQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T14:36:43.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\GameObject.cs",
               "RelativeDocumentMoniker": "GameFramework\\BL\\GameObject.cs",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\GameObject.cs",
               "RelativeToolTip": "GameFramework\\BL\\GameObject.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAkwF4AAAAJAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAywGQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T18:52:53.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ZigZagMovement.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\ZigZagMovement.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\ZigZagMovement.cs",
@@ -147,25 +158,23 @@
               "RelativeToolTip": "GameFramework\\Movement\\ZigZagMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:40:41.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T22:40:41.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Enums.cs",
               "RelativeDocumentMoniker": "GameFramework\\BL\\Enums.cs",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Enums.cs",
               "RelativeToolTip": "GameFramework\\BL\\Enums.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwCkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:55:24.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T18:55:24.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\Movement.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\Movement.cs",
@@ -173,38 +182,36 @@
               "RelativeToolTip": "GameFramework\\Movement\\Movement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:07:09.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T19:07:09.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
               "RelativeDocumentMoniker": "GameFramework\\BL\\Game.cs",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\BL\\Game.cs",
               "RelativeToolTip": "GameFramework\\BL\\Game.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAAADAAAAAcAAAA",
+              "ViewState": "AQIAANYAAAAAAAAAAAAowNgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T18:52:06.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "HorizontalMovement.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\HorizontalMovement.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\HorizontalMovement.cs",
               "ToolTip": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\HorizontalMovement.cs",
               "RelativeToolTip": "GameFramework\\Movement\\HorizontalMovement.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAJAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:22:13.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T19:22:13.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "VerticalMovement.cs",
               "DocumentMoniker": "C:\\Users\\Bilal\\OneDrive\\Desktop\\Game\\GameFramework\\GameFramework\\Movement\\VerticalMovement.cs",
               "RelativeDocumentMoniker": "GameFramework\\Movement\\VerticalMovement.cs",
@@ -212,8 +219,7 @@
               "RelativeToolTip": "GameFramework\\Movement\\VerticalMovement.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAUwAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:26:05.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T22:26:05.387Z"
             }
           ]
         }

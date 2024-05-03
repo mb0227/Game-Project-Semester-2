@@ -39,6 +39,9 @@ namespace Warzone
                 Game.AddGameObject(Images.enemy, GameObjectType.VerticalEnemy, 200, 600, new VerticalMovement(10, boundary, VerticalEnemyDirection.Up));
                 Game.AddGameObject(Images.enemy, GameObjectType.ZigZagEnemy, 200, 70, new ZigZagMovement(1, boundary, ZigZagEnemyDirection.Left));
                 Game.AddGameObject(Images.Screenshot_2024_05_02_190532_removebg_preview, GameObjectType.Player, 200, 70, new KeyboardMovement(10, boundary));
+
+                Game.AddGameObject(Images.Explosion_B, GameObjectType.Bullet, 100, 70, new HorizontalMovement(10, boundary, HorizontalEnemyDirection.Left));
+
                 CollisionDetection collision = new CollisionDetection(GameObjectType.Player, GameObjectType.VerticalEnemy, ActionPerformed.IncreasePoints);
                 CollisionDetection collision2 = new CollisionDetection(GameObjectType.Player, GameObjectType.HorizontalEnemy, ActionPerformed.DecreasePoints);
                 CollisionDetection collision3 = new CollisionDetection(GameObjectType.Player, GameObjectType.VerticalEnemy, ActionPerformed.IncreaseHealth);
@@ -47,9 +50,6 @@ namespace Warzone
                 CollisionDetection collision6 = new CollisionDetection(GameObjectType.VerticalEnemy, GameObjectType.Player, ActionPerformed.DecreaseHealth);
                 CollisionDetection collision7 = new CollisionDetection(GameObjectType.ZigZagEnemy, GameObjectType.Player, ActionPerformed.DecreaseHealth);
 
-                CollisionDetection collision8 = new CollisionDetection(GameObjectType.HorizontalEnemy, GameObjectType.Ground, ActionPerformed.ChangeState);
-                CollisionDetection collision9 = new CollisionDetection(GameObjectType.VerticalEnemy, GameObjectType.Ground, ActionPerformed.ChangeState);
-
                 Game.AddCollision(collision);
                 Game.AddCollision(collision2);
                 Game.AddCollision(collision3);
@@ -57,8 +57,6 @@ namespace Warzone
                 Game.AddCollision(collision5);
                 Game.AddCollision(collision6);
                 Game.AddCollision(collision7);
-                Game.AddCollision(collision8);
-                Game.AddCollision(collision9);
                 InitializeStats();
             }
         }
@@ -170,6 +168,38 @@ namespace Warzone
                 EnemiesHealth.Add(enemyHealth);
                 Controls.Add(enemyHealth);
                 Controls.Add(enemyProgressBar);
+            }
+        }
+
+        //private void CheckGameOver()
+        //{
+        //    if (Game.GetPlayerHealth() <= 0)
+        //    {
+        //        GameLoop.Stop();
+        //        MessageBox.Show("Game Over");
+        //        this.Close();
+        //    }
+        //}
+
+        //private void CheckWin()
+        //{
+        //    if (Game.GetScore() >= 100)
+        //    {
+        //        GameLoop.Stop();
+        //        MessageBox.Show("You have won the game");
+        //        this.Close();
+        //    }
+        //}
+
+        private void CheckConditions()
+        {
+            if (EZInput.Keyboard.IsKeyPressed(EZInput.Key.Escape))
+            {
+                DialogResult result = MessageBox.Show("Are you are you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    this.Hide();
+                }
             }
         }
     }

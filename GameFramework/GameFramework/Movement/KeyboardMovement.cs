@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using GameFramework.BL;
+using System.Windows.Forms;
 
 namespace GameFramework.Movement
 {
     public class KeyboardMovement : IMovement
     {
-        protected Point Boundary;
-        protected int Speed;
-        protected int Offset = 50;
+        private Point Boundary;
+        private int Speed;
+        private int Offset = 50;
 
         public KeyboardMovement(int speed, Point boundary)
         {
@@ -52,6 +53,7 @@ namespace GameFramework.Movement
             }
             return point;
         }
+
         public int GetSpeed()
         {
             return Speed;
@@ -60,6 +62,12 @@ namespace GameFramework.Movement
         public Point GetBoundary()
         {
             return Boundary;
+        }
+
+        private void CreateBullet()
+        {
+            PictureBox bullet = new PictureBox();
+
         }
     }
 }

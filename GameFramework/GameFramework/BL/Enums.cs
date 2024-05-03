@@ -15,6 +15,7 @@ namespace GameFramework.BL
         HorizontalEnemy,
         VerticalEnemy,
         ZigZagEnemy,
+        Bullet,
         Ground
     }
 
