@@ -1,4 +1,4 @@
-﻿using GameFramework.BL;
+﻿using GameFramework.GL;
 using GameFramework.Movement;
 using System;
 using System.Collections.Generic;
@@ -58,6 +58,10 @@ namespace GameFramework.Collision
             else if (ActionToPerform == ActionPerformed.DecreaseHealth)
             {
                 gameObject.DecreaseHealth();
+            }
+            else if (ActionToPerform == ActionPerformed.ChangeState)
+            {
+                gameObject.ChangeState();
             }
         }
     }

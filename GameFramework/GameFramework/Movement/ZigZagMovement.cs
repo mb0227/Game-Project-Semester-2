@@ -1,4 +1,4 @@
-﻿using GameFramework.BL;
+﻿using GameFramework.GL;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -54,7 +54,7 @@ namespace GameFramework.Movement
 
             if((point.X+Offset)>=Boundary.X)
                 Direction = ZigZagEnemyDirection.Left;
-            else if((point.X-Offset)<=0)
+            else if((point.X-Offset)<=163)
                 Direction = ZigZagEnemyDirection.Right;
 
             if (count == 10)

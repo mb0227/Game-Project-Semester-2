@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameUI\GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameUI\GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
     <Compile Include="GameUI\GameGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Images.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GameUI\GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GameUI\GameGUI.resx">
       <DependentUpon>GameGUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,16 +190,25 @@
     <None Include="Assets\Tank_Fire.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Enemy2.png" />
+    <None Include="Resources\enemyRight.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Screenshot 2024-05-02 185721.jpg" />
+    <None Include="Resources\lose.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Screenshot_2024-05-02_190532-removebg-preview.png" />
+    <None Include="Resources\win.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\enemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontalWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verticalWall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

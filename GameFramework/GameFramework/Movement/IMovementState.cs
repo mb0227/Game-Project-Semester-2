@@ -1,4 +1,4 @@
-﻿using GameFramework.BL;
+﻿using GameFramework.GL;
 using System;
 using System.Collections.Generic;
 using System.Linq;

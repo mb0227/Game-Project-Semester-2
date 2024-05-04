@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameGUI));
             this.GameLoop = new System.Windows.Forms.Timer(this.components);
+            this.Sidebar = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.SuspendLayout();
             // 
             // GameLoop
@@ -39,13 +39,26 @@
             this.GameLoop.Interval = 30;
             this.GameLoop.Tick += new System.EventHandler(this.GameLoop_Tick);
             // 
+            // Sidebar
+            // 
+            this.Sidebar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.Sidebar.FillColor = System.Drawing.Color.DarkViolet;
+            this.Sidebar.FillColor2 = System.Drawing.Color.Indigo;
+            this.Sidebar.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.Sidebar.Location = new System.Drawing.Point(0, -1);
+            this.Sidebar.Name = "Sidebar";
+            this.Sidebar.Size = new System.Drawing.Size(251, 592);
+            this.Sidebar.TabIndex = 0;
+            // 
             // GameGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1089, 591);
+            this.ClientSize = new System.Drawing.Size(1200, 591);
+            this.Controls.Add(this.Sidebar);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GameGUI";
@@ -59,6 +72,7 @@
         #endregion
 
         private System.Windows.Forms.Timer GameLoop;
+        private Guna.UI2.WinForms.Guna2GradientPanel Sidebar;
     }
 }
 

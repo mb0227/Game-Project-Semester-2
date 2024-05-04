@@ -1,4 +1,4 @@
-﻿using GameFramework.BL;
+﻿using GameFramework.GL;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -6,6 +6,8 @@ using System.Linq;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace GameFramework.Movement
 {
@@ -27,7 +29,7 @@ namespace GameFramework.Movement
         {
             if ((point.X + Offset + 30) >= Boundary.X)
                 Direction = HorizontalEnemyDirection.Left;
-            else if ((point.X - Offset + 50) <= 0)
+            else if ((point.X - Offset + 50) <= 163)
                 Direction = HorizontalEnemyDirection.Right;
 
             if (Direction == HorizontalEnemyDirection.Left)

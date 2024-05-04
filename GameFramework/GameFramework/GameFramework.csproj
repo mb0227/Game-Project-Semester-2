@@ -45,22 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BL\GameObject.cs" />
-    <Compile Include="BL\Game.cs" />
-    <Compile Include="BL\Enums.cs" />
+    <Compile Include="GL\GameObject.cs" />
+    <Compile Include="GL\Game.cs" />
+    <Compile Include="GL\Enums.cs" />
     <Compile Include="Collision\CollisionDetection.cs" />
+    <Compile Include="GL\Player.cs" />
+    <Compile Include="Movement\BulletMovement.cs" />
     <Compile Include="Movement\HorizontalMovement.cs" />
     <Compile Include="Movement\IMovement.cs" />
     <Compile Include="Movement\IMovementState.cs" />
+    <Compile Include="Movement\IPlayer.cs" />
     <Compile Include="Movement\KeyboardMovement.cs" />
-    <Compile Include="Movement\Movement.cs" />
     <Compile Include="Movement\VerticalMovement.cs" />
     <Compile Include="Movement\ZigZagMovement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="im.Designer.cs">
+    <Compile Include="Images.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>im.resx</DependentUpon>
+      <DependentUpon>Images.resx</DependentUpon>
     </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
@@ -68,22 +70,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="im.resx">
+    <EmbeddedResource Include="Images.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>im.Designer.cs</LastGenOutput>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Enemy1.png" />
+    <None Include="Resources\playerLeft.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Enemy2.png" />
+    <None Include="Resources\playerRight.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Player.png" />
+    <None Include="Resources\bulletRight.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Tank_Fire.png" />
+    <None Include="Resources\bulletLeft.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

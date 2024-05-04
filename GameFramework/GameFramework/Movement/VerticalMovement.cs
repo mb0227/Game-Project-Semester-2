@@ -4,7 +4,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GameFramework.BL;
+using System.Windows.Forms;
+using GameFramework.GL;
 
 namespace GameFramework.Movement
 {
@@ -27,7 +28,9 @@ namespace GameFramework.Movement
             if ((point.Y + Offset + 10) >= Boundary.Y)
                 Direction = VerticalEnemyDirection.Up;
             else if ((point.Y - Offset + 50) <= 0)
+            {
                 Direction = VerticalEnemyDirection.Down;
+            }
 
             if (Direction == VerticalEnemyDirection.Up)
                 point.Y -= Speed;

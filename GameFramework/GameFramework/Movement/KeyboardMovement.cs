@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-using GameFramework.BL;
+using GameFramework.GL;
 using System.Windows.Forms;
 
 namespace GameFramework.Movement
@@ -13,12 +13,19 @@ namespace GameFramework.Movement
     {
         private Point Boundary;
         private int Speed;
+        private IPlayer player;
         private int Offset = 50;
 
-        public KeyboardMovement(int speed, Point boundary)
+        public KeyboardMovement(int speed, Point boundary, IPlayer player)
         {
             Speed = speed;
             Boundary = boundary;
+            this.player = player;
+        }
+
+        public void SetPlayer(IPlayer player)
+        {
+            this.player = player;
         }
 
         public Point Move(Point point)
@@ -39,7 +46,7 @@ namespace GameFramework.Movement
             }
             if (EZInput.Keyboard.IsKeyPressed(EZInput.Key.LeftArrow))
             {
-                if (point.X + Speed > 7)
+                if (point.X + Speed > 163)
                 {
                     point.X -= Speed;
                 }
@@ -50,6 +57,10 @@ namespace GameFramework.Movement
                 {
                     point.X += Speed;
                 }
+            }
+            if (EZInput.Keyboard.IsKeyPressed(EZInput.Key.Space))
+            {
+                player.Fire();
             }
             return point;
         }
@@ -62,12 +73,6 @@ namespace GameFramework.Movement
         public Point GetBoundary()
         {
             return Boundary;
-        }
-
-        private void CreateBullet()
-        {
-            PictureBox bullet = new PictureBox();
-
         }
     }
 }
